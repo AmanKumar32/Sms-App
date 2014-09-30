@@ -19,17 +19,8 @@
         android:ems="10"
         android:gravity="center_vertical"
         android:hint="Enter Phone Number"
-        android:textColorHint="@style/AppBaseTheme" />
-
-    <ImageButton
-        android:id="@+id/btnsend"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/etmessage"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="76dp"
-        android:onClick="send"
-        android:src="@android:drawable/ic_menu_send" />
+        android:textColorHint="@style/AppBaseTheme" >
+    </EditText>
 
     <EditText
         android:id="@+id/etmessage"
@@ -47,5 +38,15 @@
 
         <requestFocus />
     </EditText>
+
+    <ImageButton
+        android:id="@+id/btnsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etmessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:onClick="send"
+        android:src="@android:drawable/ic_menu_send" />
 
 </RelativeLayout>
