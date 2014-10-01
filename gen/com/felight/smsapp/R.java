@@ -23,6 +23,7 @@ public final class R {
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
         public static final int message=0x7f020001;
+        public static final int send=0x7f020002;
     }
     public static final class id {
         public static final int action_settings=0x7f080003;
@@ -31,7 +32,7 @@ public final class R {
         public static final int etphoneNo=0x7f080000;
     }
     public static final class layout {
-        public static final int activity_sms=0x7f030000;
+        public static final int sms_layout=0x7f030000;
     }
     public static final class menu {
         public static final int sms=0x7f070000;
@@ -39,7 +40,9 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
+        public static final int desc=0x7f050004;
         public static final int hello_world=0x7f050002;
+        public static final int todo=0x7f050003;
     }
     public static final class style {
         /** 
