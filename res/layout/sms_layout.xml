@@ -12,6 +12,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="50dp"
         android:ems="10"
+        android:gravity="center"
+        android:hint="To::"
         android:inputType="number" />
 
     <EditText
@@ -22,6 +24,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="41dp"
         android:ems="10"
+        android:gravity="center"
+        android:hint="Write Message Here::"
         android:inputType="textMultiLine"
         android:lines="5" />
 

@@ -27,7 +27,7 @@ public class SmsActivity extends Activity {
 
 		etphoneNo = (EditText) findViewById(R.id.etphoneNo);
 		etmessage = (EditText) findViewById(R.id.etmessage);
-		//btnsend = (Button) findViewById(R.id.btnsend);
+		// btnsend = (Button) findViewById(R.id.btnsend);
 
 	}
 
@@ -40,6 +40,7 @@ public class SmsActivity extends Activity {
 			smsManager.sendTextMessage(phoneNo, null, sms, null, null);
 			Toast.makeText(getApplicationContext(), "SMS Sent!",
 					Toast.LENGTH_LONG).show();
+
 		} catch (Exception e) {
 			Toast.makeText(getApplicationContext(),
 					"SMS faild, please try again later!", Toast.LENGTH_LONG)
@@ -47,6 +48,13 @@ public class SmsActivity extends Activity {
 			e.printStackTrace();
 		}
 
+	}
+
+	@Override
+	protected void onStop() {
+		// TODO Auto-generated method stub
+		super.onStop();
+		finish();
 	}
 
 }
